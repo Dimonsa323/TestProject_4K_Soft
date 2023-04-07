@@ -19,3 +19,4 @@ class Navigator: NavigatorProtocol {
         assembler.createDoorVC(navigator: self)
     }
 }
+
