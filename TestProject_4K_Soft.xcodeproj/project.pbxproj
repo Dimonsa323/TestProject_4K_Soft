@@ -9,23 +9,42 @@
 /* Begin PBXBuildFile section */
 		1459009529DDCE090077DB4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1459009429DDCE090077DB4D /* AppDelegate.swift */; };
 		1459009729DDCE090077DB4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1459009629DDCE090077DB4D /* SceneDelegate.swift */; };
-		1459009929DDCE090077DB4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1459009829DDCE090077DB4D /* ViewController.swift */; };
-		1459009C29DDCE090077DB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1459009A29DDCE090077DB4D /* Main.storyboard */; };
 		1459009F29DDCE090077DB4D /* TestProject_4K_Soft.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1459009D29DDCE090077DB4D /* TestProject_4K_Soft.xcdatamodeld */; };
 		145900A129DDCE0A0077DB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145900A029DDCE0A0077DB4D /* Assets.xcassets */; };
 		145900A429DDCE0A0077DB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145900A229DDCE0A0077DB4D /* LaunchScreen.storyboard */; };
+		145900AF29DDD16E0077DB4D /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145900AE29DDD16E0077DB4D /* CoreDataService.swift */; };
+		145900B429DEB1F40077DB4D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 145900B329DEB1F40077DB4D /* SnapKit */; };
+		145900B729DEB91F0077DB4D /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145900B629DEB91F0077DB4D /* Assembler.swift */; };
+		145900B929DEB9270077DB4D /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145900B829DEB9270077DB4D /* Navigator.swift */; };
+		145900BE29DEBD400077DB4D /* Sk-Modernist-Mono.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145900BB29DEBD400077DB4D /* Sk-Modernist-Mono.otf */; };
+		145900BF29DEBD400077DB4D /* Sk-Modernist-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145900BC29DEBD400077DB4D /* Sk-Modernist-Bold.otf */; };
+		145900C029DEBD400077DB4D /* Sk-Modernist-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 145900BD29DEBD400077DB4D /* Sk-Modernist-Regular.otf */; };
+		145900C229DF5E5A0077DB4D /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145900C129DF5E5A0077DB4D /* CustomFont.swift */; };
+		145900C429DF64530077DB4D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145900C329DF64530077DB4D /* Colors.swift */; };
+		145900C629E020430077DB4D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145900C529E020430077DB4D /* Constants.swift */; };
+		145900C929E02E7D0077DB4D /* DoorsViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = 145900C829E02E7D0077DB4D /* DoorsViewController .swift */; };
+		145900CC29E031580077DB4D /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145900CB29E031580077DB4D /* Container.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1459009129DDCE090077DB4D /* TestProject_4K_Soft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject_4K_Soft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1459009429DDCE090077DB4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1459009629DDCE090077DB4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1459009829DDCE090077DB4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1459009B29DDCE090077DB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1459009E29DDCE090077DB4D /* TestProject_4K_Soft.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestProject_4K_Soft.xcdatamodel; sourceTree = "<group>"; };
 		145900A029DDCE0A0077DB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		145900A329DDCE0A0077DB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		145900A529DDCE0A0077DB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		145900AE29DDD16E0077DB4D /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		145900B629DEB91F0077DB4D /* Assembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
+		145900B829DEB9270077DB4D /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		145900BB29DEBD400077DB4D /* Sk-Modernist-Mono.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sk-Modernist-Mono.otf"; sourceTree = "<group>"; };
+		145900BC29DEBD400077DB4D /* Sk-Modernist-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sk-Modernist-Bold.otf"; sourceTree = "<group>"; };
+		145900BD29DEBD400077DB4D /* Sk-Modernist-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sk-Modernist-Regular.otf"; sourceTree = "<group>"; };
+		145900C129DF5E5A0077DB4D /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		145900C329DF64530077DB4D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		145900C529E020430077DB4D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		145900C829E02E7D0077DB4D /* DoorsViewController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DoorsViewController .swift"; sourceTree = "<group>"; };
+		145900CB29E031580077DB4D /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				145900B429DEB1F40077DB4D /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +78,81 @@
 		1459009329DDCE090077DB4D /* TestProject_4K_Soft */ = {
 			isa = PBXGroup;
 			children = (
-				1459009429DDCE090077DB4D /* AppDelegate.swift */,
-				1459009629DDCE090077DB4D /* SceneDelegate.swift */,
-				1459009829DDCE090077DB4D /* ViewController.swift */,
-				1459009A29DDCE090077DB4D /* Main.storyboard */,
-				145900A029DDCE0A0077DB4D /* Assets.xcassets */,
+				145900CA29E0314F0077DB4D /* Container */,
+				145900C729E02E530077DB4D /* Screens */,
+				145900B529DEB9020077DB4D /* Services */,
+				145900B129DEAE070077DB4D /* Source */,
 				145900A229DDCE0A0077DB4D /* LaunchScreen.storyboard */,
-				145900A529DDCE0A0077DB4D /* Info.plist */,
-				1459009D29DDCE090077DB4D /* TestProject_4K_Soft.xcdatamodeld */,
+				145900B029DDD1D00077DB4D /* Support */,
+				145900AC29DDD1480077DB4D /* CoreData */,
 			);
 			path = TestProject_4K_Soft;
+			sourceTree = "<group>";
+		};
+		145900AC29DDD1480077DB4D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1459009D29DDCE090077DB4D /* TestProject_4K_Soft.xcdatamodeld */,
+				145900AE29DDD16E0077DB4D /* CoreDataService.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		145900B029DDD1D00077DB4D /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1459009629DDCE090077DB4D /* SceneDelegate.swift */,
+				1459009429DDCE090077DB4D /* AppDelegate.swift */,
+				145900A529DDCE0A0077DB4D /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		145900B129DEAE070077DB4D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				145900BA29DEBD050077DB4D /* Font */,
+				145900A029DDCE0A0077DB4D /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		145900B529DEB9020077DB4D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				145900B629DEB91F0077DB4D /* Assembler.swift */,
+				145900B829DEB9270077DB4D /* Navigator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		145900BA29DEBD050077DB4D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				145900BC29DEBD400077DB4D /* Sk-Modernist-Bold.otf */,
+				145900BB29DEBD400077DB4D /* Sk-Modernist-Mono.otf */,
+				145900BD29DEBD400077DB4D /* Sk-Modernist-Regular.otf */,
+				145900C129DF5E5A0077DB4D /* CustomFont.swift */,
+				145900C329DF64530077DB4D /* Colors.swift */,
+				145900C529E020430077DB4D /* Constants.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		145900C729E02E530077DB4D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				145900C829E02E7D0077DB4D /* DoorsViewController .swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		145900CA29E0314F0077DB4D /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				145900CB29E031580077DB4D /* Container.swift */,
+			);
+			path = Container;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +171,9 @@
 			dependencies = (
 			);
 			name = TestProject_4K_Soft;
+			packageProductDependencies = (
+				145900B329DEB1F40077DB4D /* SnapKit */,
+			);
 			productName = TestProject_4K_Soft;
 			productReference = 1459009129DDCE090077DB4D /* TestProject_4K_Soft.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +202,9 @@
 				Base,
 			);
 			mainGroup = 1459008829DDCE090077DB4D;
+			packageReferences = (
+				145900B229DEB1F40077DB4D /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 1459009229DDCE090077DB4D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,9 +219,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				145900C029DEBD400077DB4D /* Sk-Modernist-Regular.otf in Resources */,
 				145900A429DDCE0A0077DB4D /* LaunchScreen.storyboard in Resources */,
 				145900A129DDCE0A0077DB4D /* Assets.xcassets in Resources */,
-				1459009C29DDCE090077DB4D /* Main.storyboard in Resources */,
+				145900BF29DEBD400077DB4D /* Sk-Modernist-Bold.otf in Resources */,
+				145900BE29DEBD400077DB4D /* Sk-Modernist-Mono.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +234,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				145900C229DF5E5A0077DB4D /* CustomFont.swift in Sources */,
+				145900C429DF64530077DB4D /* Colors.swift in Sources */,
 				1459009F29DDCE090077DB4D /* TestProject_4K_Soft.xcdatamodeld in Sources */,
-				1459009929DDCE090077DB4D /* ViewController.swift in Sources */,
+				145900AF29DDD16E0077DB4D /* CoreDataService.swift in Sources */,
+				145900B729DEB91F0077DB4D /* Assembler.swift in Sources */,
+				145900C929E02E7D0077DB4D /* DoorsViewController .swift in Sources */,
 				1459009529DDCE090077DB4D /* AppDelegate.swift in Sources */,
 				1459009729DDCE090077DB4D /* SceneDelegate.swift in Sources */,
+				145900B929DEB9270077DB4D /* Navigator.swift in Sources */,
+				145900CC29E031580077DB4D /* Container.swift in Sources */,
+				145900C629E020430077DB4D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1459009A29DDCE090077DB4D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1459009B29DDCE090077DB4D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		145900A229DDCE0A0077DB4D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -299,6 +391,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +420,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +456,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		145900B229DEB1F40077DB4D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		145900B329DEB1F40077DB4D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 145900B229DEB1F40077DB4D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		1459009D29DDCE090077DB4D /* TestProject_4K_Soft.xcdatamodeld */ = {
