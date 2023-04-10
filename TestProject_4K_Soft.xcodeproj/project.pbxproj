@@ -24,6 +24,15 @@
 		145900C629E020430077DB4D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145900C529E020430077DB4D /* Constants.swift */; };
 		145900C929E02E7D0077DB4D /* DoorsViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = 145900C829E02E7D0077DB4D /* DoorsViewController .swift */; };
 		145900CC29E031580077DB4D /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145900CB29E031580077DB4D /* Container.swift */; };
+		1492433F29E0AB6B005B8EEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492433E29E0AB6B005B8EEB /* ViewController.swift */; };
+		1492434429E165C5005B8EEB /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492434329E165C5005B8EEB /* Door.swift */; };
+		1492434629E16C05005B8EEB /* ActivitityIndicator+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492434529E16C05005B8EEB /* ActivitityIndicator+Extension.swift */; };
+		1492434929E16F6D005B8EEB /* Closure+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492434829E16F6D005B8EEB /* Closure+Extension.swift */; };
+		1492434B29E16F90005B8EEB /* Task+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492434A29E16F90005B8EEB /* Task+Extension.swift */; };
+		1492434D29E171B8005B8EEB /* TableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492434C29E171B8005B8EEB /* TableView+Extension.swift */; };
+		1492434F29E29F81005B8EEB /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492434E29E29F81005B8EEB /* DataSource.swift */; };
+		1492435229E2A068005B8EEB /* DoorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492435129E2A068005B8EEB /* DoorCell.swift */; };
+		1492435A29E2A324005B8EEB /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492435929E2A324005B8EEB /* ProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +54,15 @@
 		145900C529E020430077DB4D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		145900C829E02E7D0077DB4D /* DoorsViewController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DoorsViewController .swift"; sourceTree = "<group>"; };
 		145900CB29E031580077DB4D /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		1492433E29E0AB6B005B8EEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1492434329E165C5005B8EEB /* Door.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
+		1492434529E16C05005B8EEB /* ActivitityIndicator+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivitityIndicator+Extension.swift"; sourceTree = "<group>"; };
+		1492434829E16F6D005B8EEB /* Closure+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Closure+Extension.swift"; sourceTree = "<group>"; };
+		1492434A29E16F90005B8EEB /* Task+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+Extension.swift"; sourceTree = "<group>"; };
+		1492434C29E171B8005B8EEB /* TableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Extension.swift"; sourceTree = "<group>"; };
+		1492434E29E29F81005B8EEB /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		1492435129E2A068005B8EEB /* DoorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorCell.swift; sourceTree = "<group>"; };
+		1492435929E2A324005B8EEB /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +96,11 @@
 		1459009329DDCE090077DB4D /* TestProject_4K_Soft */ = {
 			isa = PBXGroup;
 			children = (
-				145900CA29E0314F0077DB4D /* Container */,
+				1492434229E1659E005B8EEB /* Models */,
+				1492434129E16590005B8EEB /* Extension */,
+				1492434029E16580005B8EEB /* CustomView */,
 				145900C729E02E530077DB4D /* Screens */,
+				145900CA29E0314F0077DB4D /* Container */,
 				145900B529DEB9020077DB4D /* Services */,
 				145900B129DEAE070077DB4D /* Source */,
 				145900A229DDCE0A0077DB4D /* LaunchScreen.storyboard */,
@@ -111,6 +132,8 @@
 		145900B129DEAE070077DB4D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				145900C529E020430077DB4D /* Constants.swift */,
+				145900C329DF64530077DB4D /* Colors.swift */,
 				145900BA29DEBD050077DB4D /* Font */,
 				145900A029DDCE0A0077DB4D /* Assets.xcassets */,
 			);
@@ -133,8 +156,6 @@
 				145900BB29DEBD400077DB4D /* Sk-Modernist-Mono.otf */,
 				145900BD29DEBD400077DB4D /* Sk-Modernist-Regular.otf */,
 				145900C129DF5E5A0077DB4D /* CustomFont.swift */,
-				145900C329DF64530077DB4D /* Colors.swift */,
-				145900C529E020430077DB4D /* Constants.swift */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -142,7 +163,9 @@
 		145900C729E02E530077DB4D /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				145900C829E02E7D0077DB4D /* DoorsViewController .swift */,
+				1492433E29E0AB6B005B8EEB /* ViewController.swift */,
+				1492433D29E0AB40005B8EEB /* DoorsTableView */,
+				1492433B29E0AB1F005B8EEB /* DoorsScreen */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -153,6 +176,58 @@
 				145900CB29E031580077DB4D /* Container.swift */,
 			);
 			path = Container;
+			sourceTree = "<group>";
+		};
+		1492433B29E0AB1F005B8EEB /* DoorsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				145900C829E02E7D0077DB4D /* DoorsViewController .swift */,
+			);
+			path = DoorsScreen;
+			sourceTree = "<group>";
+		};
+		1492433D29E0AB40005B8EEB /* DoorsTableView */ = {
+			isa = PBXGroup;
+			children = (
+				1492435029E2A059005B8EEB /* Cell */,
+				1492434E29E29F81005B8EEB /* DataSource.swift */,
+			);
+			path = DoorsTableView;
+			sourceTree = "<group>";
+		};
+		1492434029E16580005B8EEB /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				1492435929E2A324005B8EEB /* ProgressView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		1492434129E16590005B8EEB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1492434529E16C05005B8EEB /* ActivitityIndicator+Extension.swift */,
+				1492434829E16F6D005B8EEB /* Closure+Extension.swift */,
+				1492434A29E16F90005B8EEB /* Task+Extension.swift */,
+				1492434C29E171B8005B8EEB /* TableView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1492434229E1659E005B8EEB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1492434329E165C5005B8EEB /* Door.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1492435029E2A059005B8EEB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1492435129E2A068005B8EEB /* DoorCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,11 +315,20 @@
 				145900AF29DDD16E0077DB4D /* CoreDataService.swift in Sources */,
 				145900B729DEB91F0077DB4D /* Assembler.swift in Sources */,
 				145900C929E02E7D0077DB4D /* DoorsViewController .swift in Sources */,
+				1492433F29E0AB6B005B8EEB /* ViewController.swift in Sources */,
+				1492434629E16C05005B8EEB /* ActivitityIndicator+Extension.swift in Sources */,
+				1492435229E2A068005B8EEB /* DoorCell.swift in Sources */,
 				1459009529DDCE090077DB4D /* AppDelegate.swift in Sources */,
+				1492434429E165C5005B8EEB /* Door.swift in Sources */,
+				1492434B29E16F90005B8EEB /* Task+Extension.swift in Sources */,
 				1459009729DDCE090077DB4D /* SceneDelegate.swift in Sources */,
+				1492434F29E29F81005B8EEB /* DataSource.swift in Sources */,
 				145900B929DEB9270077DB4D /* Navigator.swift in Sources */,
 				145900CC29E031580077DB4D /* Container.swift in Sources */,
+				1492434929E16F6D005B8EEB /* Closure+Extension.swift in Sources */,
+				1492435A29E2A324005B8EEB /* ProgressView.swift in Sources */,
 				145900C629E020430077DB4D /* Constants.swift in Sources */,
+				1492434D29E171B8005B8EEB /* TableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +472,6 @@
 				INFOPLIST_FILE = TestProject_4K_Soft/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -417,7 +500,6 @@
 				INFOPLIST_FILE = TestProject_4K_Soft/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;

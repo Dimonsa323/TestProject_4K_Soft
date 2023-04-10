@@ -13,5 +13,5 @@ enum Constants {
     
     static let logoHomeImage = UIImage(named: "logo_home")!
     static let nameImage = UIImage(named: "image_name")!
-    static let iconSettingsImage = UIImage(named: "icon_setting")!
+    static let iconSettingsImage = UIImage(named: "icon_settings")!
 }

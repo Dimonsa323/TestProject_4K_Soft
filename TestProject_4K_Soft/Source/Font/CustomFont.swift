@@ -12,7 +12,7 @@ enum CustomFont: String {
     case mono = "Sk-Modernist-Mono"
     case regular = "Sk-Modernist-Regular"
     
-    static func getFont(wize size: CGFloat, and font: CustomFont) -> UIFont {
+    static func getFont(with size: CGFloat, and font: CustomFont) -> UIFont {
         return UIFont(name: font.rawValue, size: size)!
     }
 }

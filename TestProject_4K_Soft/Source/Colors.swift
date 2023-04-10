@@ -8,15 +8,21 @@
 import UIKit
 
 enum Colors {
+    ///#323755
     case mainLabel
-    case grayColor
+    ///#B9B9B9
+    case gray
+    ///#E3EAEA
+    case borderColor
     
     var color: UIColor {
         switch self {
         case .mainLabel:
             return UIColor(hexString: "#323755")
-        case .grayColor:
+        case .gray:
             return UIColor(hexString: "#B9B9B9")
+        case .borderColor:
+            return UIColor(hexString: "#E3EAEA")
         }
     }
 }
